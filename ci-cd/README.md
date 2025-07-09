@@ -205,7 +205,19 @@ A **staging environment** replicates production to test before deployment.
   - Helps catch bugs **before they reach production**.  
   - Enables **performance testing, security testing**.  
 - **CI/CD flow:**  
-  - Dev → QA → **Staging** → Production  
+  - Dev → QA → **Staging** → Production
+  
+- **Steps in the CI/CD Workflow:**
+
+  - **Code Commit** Developers commit and push code changes to a version control system (e.g., Git).
+
+  - **Build** The CI system automatically pulls the latest code and builds it to detect syntax errors and ensure the application compiles correctly.
+
+  - **Test** Automated tests (unit and integration tests) run to ensure new code changes function correctly and do not break existing functionality.
+
+  - **Staging** Successful builds and tests trigger deployment to a staging environment, closely replicating the production environment. Here, additional tests such as performance, security, and usability tests are performed.
+
+  - **Production** After thorough testing and validation in staging, the final step deploys the application to the production environment, making it accessible to end users. This step can be automatic or may require manual approval based on the deployment strategy.
 
 ### **29. How does a monorepo impact CI/CD pipelines?**  
 
