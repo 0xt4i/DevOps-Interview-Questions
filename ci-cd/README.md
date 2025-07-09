@@ -63,8 +63,8 @@ Then, a CD platform or the same CI/CD tool (e.g., Jenkins, GitHub Actions, GitLa
 
 The artifact is first deployed to a testing or staging environment.
 Automated tests are executed to verify that the application behaves as expected in a near-production setting.
-In a Continuous Delivery pipeline, a manual approval step may follow before production deployment.
-In a Continuous Deployment pipeline, the artifact is automatically deployed to the production environment once tests pass.
+- In a Continuous Delivery pipeline, a manual approval step may follow before production deployment.
+- In a Continuous Deployment pipeline, the artifact is automatically deployed to the production environment once tests pass.
 
 This automated workflow ensures fast, consistent, and reliable software releases.
 
