@@ -39,11 +39,13 @@ A **CI pipeline** is an automated workflow that builds, tests, and validates new
 - Steps: **Code Commit → Build → Test → Artifact Storage → Deployment**  
 - Example tools: **Jenkinsfile, GitHub Actions YAML, GitLab CI/CD YAML**  
 - **Present**:
+
 Firstly, a developer commits new code to the source code repository (e.g., GitHub, GitLab).
 Then, a CI platform like Jenkins, CircleCI, or GitHub Actions automatically detects this change and triggers the CI pipeline.
 - Build step compiles the code and generates a build artifact.
 - Test step runs automated tests to ensure the new code doesn't break existing features.
 - The validated build artifact is then saved in an artifact repository.
+
 Finally, the artifact can be deployed to a staging or production environment in the deployment step (if CI/CD is combined).
 
 ### **4.1 What is a CD pipeline?**
