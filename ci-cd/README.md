@@ -56,6 +56,17 @@ A CD pipeline (Continuous Delivery or Continuous Deployment pipeline) is an auto
 - Steps: **Artifact Retrieval → Deploy to Test/Staging → Automated Tests → Approval (for Continuous Delivery) → Deploy to Production**
 
 - Examples tools: Jenkins pipelines, GitHub Actions workflows, GitLab CI/CD pipelines, AWS CodeDeploy or Azure Pipelines
+- Present:
+
+Firstly, the validated build artifact generated from the CI pipeline is stored in an artifact repository.
+Then, a CD platform or the same CI/CD tool (e.g., Jenkins, GitHub Actions, GitLab CI/CD) retrieves this artifact and starts the deployment process.
+
+The artifact is first deployed to a testing or staging environment.
+Automated tests are executed to verify that the application behaves as expected in a near-production setting.
+In a Continuous Delivery pipeline, a manual approval step may follow before production deployment.
+In a Continuous Deployment pipeline, the artifact is automatically deployed to the production environment once tests pass.
+
+This automated workflow ensures fast, consistent, and reliable software releases.
 
 ### **5. What is a build artifact in CI/CD?**  
 
