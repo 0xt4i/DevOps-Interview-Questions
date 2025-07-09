@@ -39,6 +39,15 @@ A **CI pipeline** is an automated workflow that builds, tests, and validates new
 - Steps: **Code Commit → Build → Test → Artifact Storage → Deployment**  
 - Example tools: **Jenkinsfile, GitHub Actions YAML, GitLab CI/CD YAML**  
 
+### **4.1 What is a CD pipeline?**
+
+**Answer:**  
+A CD pipeline (Continuous Delivery or Continuous Deployment pipeline) is an automated workflow that takes the build artifacts from the CI (Continuous Integration) pipeline and deploys them to environments like staging, testing, or production.
+
+- Steps: **Artifact Retrieval → Deploy to Test/Staging → Automated Tests → Approval (for Continuous Delivery) → Deploy to Production**
+
+- Examples tools: Jenkins pipelines, GitHub Actions workflows, GitLab CI/CD pipelines, AWS CodeDeploy or Azure Pipelines
+
 ### **5. What is a build artifact in CI/CD?**  
 
 **Answer:**  
