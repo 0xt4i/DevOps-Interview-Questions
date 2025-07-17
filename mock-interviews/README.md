@@ -30,6 +30,58 @@ DevOps is a **set of practices** that combines **software development (Dev)** an
 4. **Monitoring & Logging** – Observability, real-time feedback  
 5. **Security (DevSecOps)** – Security integrated into SDLC  
 
+#### Present
+
+Collaboration
+
+- One key principle of DevOps is collaboration.
+
+- This means breaking down the barriers between development and operations teams.
+
+- When these teams work together, they can deliver software faster and solve problems more efficiently.
+
+- For example, developers and IT staff can share knowledge and responsibilities, making deployments smoother.
+
+Automation
+
+- Another important principle is automation.
+
+- Automation refers to using tools to handle repetitive tasks, such as testing, deployment, or infrastructure setup.
+
+- This reduces human errors and saves time.
+
+- For instance, CI/CD pipelines automatically build and deploy code whenever changes are made.  
+
+ Continuous Integration & Continuous Deployment (CI/CD)
+
+- The third principle is continuous integration and continuous deployment, often called CI/CD.
+
+- This means that new code is integrated and delivered to users regularly and automatically.
+
+- As a result, software updates are released faster and more reliably.
+
+- For example, with CI/CD, every time a developer pushes code, it is tested and deployed without manual intervention.
+
+Monitoring & Logging
+
+- Monitoring and logging is another key aspect.
+
+- This involves observing the system’s performance and keeping records of activities.
+
+- Monitoring helps detect and fix issues quickly.
+
+- For example, if a server goes down, monitoring tools can alert the team immediately.
+
+Security (DevSecOps)
+
+- The final principle is security, also known as DevSecOps.
+
+- Security must be integrated into every stage of software development, not just at the end.
+
+- This ensures that vulnerabilities are detected early.
+
+- For instance, automated security scans can check for problems whenever new code is added.
+
 ### **4. Explain the DevOps lifecycle.**  
 
 #### **Answer:**  
