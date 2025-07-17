@@ -94,14 +94,78 @@ Security (DevSecOps)
 6. **Deploy** – Kubernetes, Docker  
 7. **Monitor** – Prometheus, Grafana  
 
+#### **Present:**
+
+Plan
+
+- The first stage in the DevOps lifecycle is planning.
+
+- In this phase, teams define project goals, requirements, and tasks.
+
+- Popular tools for planning include Jira and Trello.
+
+Develop
+
+- Next is the develop phase, where developers write and manage code.
+
+- They use version control systems like Git and platforms like GitHub to collaborate and track changes.
+
+Build
+
+- The third stage is build.
+
+- Here, the source code is compiled, dependencies are managed, and build artifacts are created.
+
+- Maven and Gradle are common tools used in this process.
+
+Test
+
+- After building, the code must be tested to ensure quality.
+
+- Automated testing tools like Selenium and JUnit help detect bugs early.
+
+Release
+
+- Once the code passes testing, it moves to the release stage.
+
+- This is where the software is prepared for deployment.
+
+- Tools like GitHub Actions and Jenkins automate the release process.
+
+Deploy
+
+- The deploy phase involves moving the application into production environments.
+
+- Kubernetes and Docker are widely used to deploy and manage applications at scale.
+
+Monitor
+
+- Finally, the monitor stage is about tracking the application's performance and stability.
+
+- Prometheus and Grafana provide real-time monitoring and visualization, helping teams quickly identify and fix issues.
+
 ### **5. What are some common DevOps tools?**  
 
 #### **Answer:**  
 
-- **CI/CD**: Jenkins, GitHub Actions, GitLab CI  
-- **Configuration Management**: Ansible, Puppet  
-- **Containerization**: Docker, Kubernetes  
+- **CI/CD**: Jenkins, GitHub Actions, GitLab CI
+
+For continuous integration and deployment, common DevOps tools include **Jenkins**, **GitHub Actions**, and **GitLab CI**. These tools help automate the process of building, testing, and deploying applications.
+ 
+- **Configuration Management**: Ansible, Puppet
+
+For configuration management, **Ansible** and **Puppet** are widely used. They allow us to automate infrastructure provisioning and ensure consistency across environments.
+
+
+- **Containerization**: Docker, Kubernetes
+
+In terms of containerization, **Docker** and **Kubernetes** are the most popular tools. Docker packages applications with their dependencies, while Kubernetes orchestrates and manages containers at scale.
+
+  
 - **Monitoring & Logging**: Prometheus, Grafana, ELK Stack  
+
+For monitoring and logging, **Prometheus**, **Grafana**, and the **ELK Stack** are commonly used. These tools help us monitor system health, visualize metrics, and analyze log data to troubleshoot issues.
+
 
 ### **6. What is CI/CD, and how does it work?**  
 
