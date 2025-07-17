@@ -20,6 +20,14 @@ DevOps is a **set of practices** that combines **software development (Dev)** an
 | Collaboration | Siloed | Cross-functional |
 | Feedback Loop | Slow | Fast (Continuous Monitoring) |
 
+#### **Summary**
+
+- **Development & Operations:** In traditional IT, development and operations are handled by separate teams, while DevOps integrates these functions into one team.
+- **Deployment Frequency:** Traditional IT deploys changes less frequently (weeks or months), whereas DevOps enables more frequent deployments (daily or weekly).
+- **Automation:** Automation is limited in traditional IT, but DevOps emphasizes extensive automation through tools like CI/CD pipelines and Infrastructure as Code (IaC).
+- **Collaboration:** Traditional IT teams often work in silos, but DevOps encourages cross-functional collaboration across roles.
+- **Feedback Loop:** Feedback is slow in traditional models, while DevOps uses continuous monitoring and feedback for rapid improvements.
+
 ### **3. What are the key principles of DevOps?**  
 
 #### **Answer:**  
@@ -30,7 +38,7 @@ DevOps is a **set of practices** that combines **software development (Dev)** an
 4. **Monitoring & Logging** – Observability, real-time feedback  
 5. **Security (DevSecOps)** – Security integrated into SDLC  
 
-#### Present
+#### **Summary**
 
 Collaboration
 
@@ -94,7 +102,7 @@ Security (DevSecOps)
 6. **Deploy** – Kubernetes, Docker  
 7. **Monitor** – Prometheus, Grafana  
 
-#### **Present:**
+#### **Summary**
 
 Plan
 
