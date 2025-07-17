@@ -193,6 +193,11 @@ CI/CD is a DevOps practice that automates code integration, testing, and deploym
 | Automation   | Deployments require manual approval | Fully automated deployments |
 | Risk        | Lower risk, manual control | Higher automation, requires testing reliability |
 
+#### Summary
+
+- **Continuous Delivery** requires manual approval before deploying to production, providing more control and lower risk.
+- **Continuous Deployment** is fully automated, pushing every change to production automatically if tests pass, which increases automation but requires high confidence in testing.
+
 ### **8. What is version control, and why is Git used in DevOps?**  
 
 #### **Answer:**  
