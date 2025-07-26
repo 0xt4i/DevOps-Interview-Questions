@@ -2,6 +2,8 @@
 
 ## Self-Introduction
 
+Hi, I’m Tai, a third-year Computer Networks student at the University of Information Technology – VNU HCM.
+
 I’m passionate about DevOps and backend development. I’ve built CI/CD pipelines using GitHub Actions, deployed infrastructure with Terraform on AWS, and used Docker and Prometheus for containerization and monitoring.
 
 I’m looking for a DevOps Intern position where I can apply my skills, learn from real-world systems, and grow my experience in automation and cloud operations.
