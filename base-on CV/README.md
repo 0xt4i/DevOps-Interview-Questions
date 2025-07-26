@@ -208,6 +208,52 @@ In Kubernetes, each pod is assigned a unique IP address within the cluster. Pods
 
 Containers within the same pod share the same network namespace. This means they share the same localhost IP (127.0.0.1) and ports. They can communicate over localhost just like processes on the same machine, making communication between them efficient and fast.
 
+## 7. 
+
+### Can you describe the architecture of your pothole detection system?
+
+Sure. The system consists of an Android application that detects potholes using phone sensors and sends the data to a backend server built with Spring Boot. The server receives location and pothole information and stores it in a PostgreSQL database.  
+
+I used REST APIs for communication between the mobile app and the backend. For development and testing, the backend ran in a Docker container. In the future, I plan to integrate it with AWS services for better scalability.
+
+
+### What technologies did you use for the backend, and why?
+
+I chose Spring Boot for the backend because it's powerful, has good support for REST APIs, and integrates well with PostgreSQL. Spring Data JPA also made it easier to handle database operations.  
+
+PostgreSQL was selected because it's reliable and performs well for geolocation-based queries, which was essential for storing and querying pothole locations.
+
+
+### Did you containerize the backend or use any CI/CD tools?
+
+Yes. I containerized the backend using Docker to ensure consistency across environments. I also wrote a basic GitHub Actions workflow to automatically build and test the backend whenever changes were pushed.  
+
+This helped me understand how CI/CD pipelines work and how they can improve the software development workflow.
+
+
+### How did your Android app communicate with the backend API?
+
+The Android app sent data to the backend using HTTP requests with JSON payloads. I implemented a RESTful API in Spring Boot that received the pothole data and stored it in the database.  
+
+I also made sure to handle edge cases like failed requests or timeouts by implementing retry mechanisms on the mobile side.
+
+
+### How did you design your database schema to store pothole data?
+
+I created a table with fields like `id`, `latitude`, `longitude`, `timestamp`, and `severity`. The coordinates are indexed to allow fast lookup based on location, which is important for future features like alerting users when they’re near a reported pothole.
+
+
+### Did you consider any security practices in your backend system?
+
+Since this was a personal project, I didn’t fully implement authentication, but I planned to use JWT for secure access and HTTPS for secure communication. I also avoided exposing sensitive endpoints and handled invalid data properly to prevent injection attacks.
+
+
+### If you wanted to scale this system to support an entire city, what would you improve?
+
+I would deploy the backend on cloud infrastructure like AWS or GCP. I’d use a managed database like Amazon RDS, add caching with Redis for frequently accessed data, and use a queue system like Kafka for better handling of incoming data streams.  
+
+I would also implement load balancing, auto-scaling, and centralized logging and monitoring with tools like ELK or Prometheus-Grafana.
+
 # 🧽 II. BEHAVIORAL QUESTIONS (Based on experience and motivation)
 
 ### 💡 Why did you shift your focus to DevOps/Security?
