@@ -208,7 +208,7 @@ In Kubernetes, each pod is assigned a unique IP address within the cluster. Pods
 
 Containers within the same pod share the same network namespace. This means they share the same localhost IP (127.0.0.1) and ports. They can communicate over localhost just like processes on the same machine, making communication between them efficient and fast.
 
-## 7. 
+## 7. Android Project
 
 ### Can you describe the architecture of your pothole detection system?
 
