@@ -211,7 +211,16 @@ CI/CD is a DevOps practice that automates code integration, testing, and deploym
 Version control tracks code changes, allowing collaboration. Git is widely used because of:  
 
 - **Branching & Merging** – Parallel development  
+
+Git allows developers to create branches to work on features or fixes independently of the main code.
+
+Multiple branches enable parallel development without affecting the main project.
+
+Once work is complete, branches can be merged back into the main branch 
+
 - **Distributed Version Control** – No central dependency  
+
+meaning every developer has a full copy of the repository, including all history.
 
 ### **9. What is Infrastructure as Code (IaC)?**  
 
