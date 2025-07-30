@@ -8,6 +8,12 @@
 
 DevOps is a **set of practices** that combines **software development (Dev)** and **IT operations (Ops)** to shorten the **software development lifecycle (SDLC)** while ensuring **high quality and reliability**.  
 
+#### How do authentication and authorization differ?
+
+Authentication is the process of verifying the identity of a user.
+
+Authorization determines which actions a user is allowed to perform. For example, a regular user may only be permitted to view data, while an admin user can delete it.” 
+
 ### **2. How does DevOps differ from traditional IT operations?**  
 
 #### **Answer:**  
