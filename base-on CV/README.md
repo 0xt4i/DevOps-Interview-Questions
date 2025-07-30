@@ -88,7 +88,7 @@ In AWS, every EC2 instance automatically gets a Public IP and can optionally be 
 - Static: Remains constant until explicitly released.
 - Dedicated: Solely assigned to the AWS account unless released.
 - Cost: Incurs charges when not in use with a running instance.
--Designed for hosting applications or network appliances that require a consistent public IP address.
+- Designed for hosting applications or network appliances that require a consistent public IP address.
 
 #### Best Practices
 
